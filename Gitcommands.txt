@@ -1,0 +1,8 @@
+git clone "url"
+git add .
+git commit -m "msg"
+git status
+git push -u origin branchname
+git checkout branchname
+touch filename.txt
+
