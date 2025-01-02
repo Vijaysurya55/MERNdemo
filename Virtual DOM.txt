@@ -1,0 +1,15 @@
+The Virtual DOM is a lightweight copy of the real DOM that React uses to make updates more efficient. 
+It helps React figure out what needs to change on the screen without updating everything, which makes your app faster.
+
+
+How It Works:
+Create Virtual DOM:
+
+React creates a copy of the real DOM in memory (Virtual DOM).
+This is where React does all its work before touching the real DOM.
+Detect Changes:
+
+When something changes (like updating a button's text), React compares the new Virtual DOM with the old one to figure out exactly what changed. This process is called "diffing."
+Update Real DOM:
+
+After identifying changes, React updates only those parts of the real DOM, leaving the rest untouched.

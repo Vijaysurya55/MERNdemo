@@ -1,0 +1,13 @@
+selectors
+1.element selector(tags)
+2.class selector(.classname)
+3.id selector(#id)
+4.universals selector(*)
+5.group selector(element,element)
+6.attribute selector(href, src,height,width)
+
+
+list
+1.ordered list
+2.unordered list
+3.descriptive list

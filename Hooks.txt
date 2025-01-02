@@ -1,0 +1,5 @@
+useState - state management, re renders the whole component when the value of the state changes.
+useEffect - some operation to performed after rendering example when the changes happen to the state variable.
+useRef - can be use to reference the DOM elements, tracks the value but not re renders when value changes until the state is changed.
+useContext - use to pass props to child components directly avoiding props drilling through all the child components.
+useMemo - used for memory optiimization.
